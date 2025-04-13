@@ -9,7 +9,7 @@ const server = require("http").createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://chat-frontend-beige.vercel.app",
+    origin: "https://chat-flame-alpha.vercel.app",
     methods: ["GET", "POST"],
     allowedHeaders: ["*"],
   },
